@@ -1,22 +1,57 @@
-.App {
-  text-align: center;
+body {
+  background-image: url(./files/bala-bg.jpeg);
+  color: #fff;
 }
 
-.App-logo {
-  height: 40vmin;
+.button {
+  border-radius: .3rem;
+  width: 120px;
+  margin-bottom: 8px;
+  float: right;
+  font-size: x-large;
+  background-color: #696969;
+  border-color: #696969;
+  outline: none;
+  color: #fff;
+} 
+
+.right-menu .button {
+  margin-bottom: 35px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.name {
+  font-size: 2.5em;
 }
 
-.App-link {
-  color: #09d3ac;
+p {
+  font-size: 2em;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.vertical-line {
+  border-left: 1px solid #ccc;
+    height: 600px;
+    /* margin: 0px 0px 0px 1150px; */
+    top: 150px;;
+    position: fixed ;
+    left: 1156px;
+    width: 1%;
+}
+
+.right-menu {
+  position: fixed;
+  left: 1200px;
+  top: 242px;
+}
+
+.container {
+  height: 600px ;
 }

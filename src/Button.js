@@ -1,0 +1,11 @@
+import React from 'react';
+
+function Button(props) {
+    return (
+      <div>
+        <button className="button" onClick={props.click}>{props.name}</button>
+      </div>
+    );
+}
+
+export default Button;
