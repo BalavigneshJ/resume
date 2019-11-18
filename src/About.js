@@ -25,6 +25,14 @@ function About() {
             <br/>
             - likes Dhoni's way of cricket
         </p>
+
+        <h1>Contact me @</h1>
+        <p className="para">
+            mailtobalavignesh@gmail.com
+            <br/>
+            +919095266280
+            <br/>
+        </p>
       </div>
     );
 }

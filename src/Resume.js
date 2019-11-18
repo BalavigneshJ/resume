@@ -12,6 +12,8 @@ function Resume() {
 
     const [ele, setEle] = useState(<About/>);
 
+    const buttons = ["About" , "School" , "Patners" , "Work" , "Projects"] ;
+
     const handleClick = function (ev) {
         switch (ev.target.innerText) {
             case 'Partners':
@@ -36,9 +38,15 @@ function Resume() {
                 Balavignesh Jagadeesan
             </h1>
 
-            <div className="seperatror">
-                <hr />
-            </div>
+            {
+                buttons.map((b , i)=>{
+                    return(
+                    <Button click={handleClick} name={b} />
+                    );
+                })
+            }
+            
+            <hr />
 
             <div className="container">
 
@@ -46,16 +54,8 @@ function Resume() {
                     {ele}
                 </div>
 
-                <div className="vertical-line"></div>
-
-                <div className="right-menu">
-                    <Button click={handleClick} name={"About"} />
-                    <Button click={handleClick} name={"School"} />
-                    <Button click={handleClick} name={"Work"} />
-                    <Button click={handleClick} name={"Projects"} />
-                    <Button click={handleClick} name={"Contact"} />
-                    <Button click={handleClick} name={"Partners"} />
-                </div>
+                {/* <div className="vertical-line"></div> */}
+                
             </div>
 
         </div>

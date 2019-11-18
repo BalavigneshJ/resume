@@ -5,18 +5,21 @@ body {
 
 .button {
   border-radius: .3rem;
-  width: 120px;
-  margin-bottom: 8px;
-  float: right;
-  font-size: x-large;
-  background-color: #696969;
-  border-color: #696969;
-  outline: none;
-  color: #fff;
-} 
+    width: 120px;
+    /* margin-bottom: 8px; */
+    float: right;
+    font-size: x-large;
+    background-color: #696969;
+    border-color: #696969;
+    outline: none;
+    color: #fff;
+    margin: 10px;
+    position: relative;
+    top: -80px;
+}
 
 .right-menu .button {
-  margin-bottom: 35px;
+  margin-bottom: 2px;
 }
 
 .name {
@@ -28,30 +31,19 @@ p {
 }
 
 hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid #ccc;
-  margin: 1em 0;
-  padding: 0;
-}
-
-.vertical-line {
-  border-left: 1px solid #ccc;
-    height: 600px;
-    /* margin: 0px 0px 0px 1150px; */
-    top: 150px;;
-    position: fixed ;
-    left: 1156px;
-    width: 1%;
-}
-
-.right-menu {
-  position: fixed;
-  left: 1200px;
-  top: 242px;
+  width: 88%;
+  position: relative;
+  top: -46px;
 }
 
 .container {
-  height: 600px ;
+  position: relative;
+  top: -40px;
 }
+
+.para{
+  position: relative;
+  left: 50px;
+  top: -15px;
+}
+
