@@ -18,6 +18,12 @@ body {
     top: -80px;
 }
 
+.active{
+  color: #8b8c8c;
+  background: #000000;
+  border-color: black;
+}
+
 .right-menu .button {
   margin-bottom: 2px;
 }

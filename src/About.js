@@ -5,7 +5,7 @@ function About() {
       <div>
         <h1>Professional Information</h1>
         <p>
-            - controller engineer in MVC architecture
+            - MVC client architec
             <br/>
             - front-end developer who use React Redux jQuery JavaScript HTML CSS AJAX Axios
             <br/>

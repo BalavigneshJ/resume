@@ -1,8 +1,9 @@
 import React from 'react';
 
 function Button(props) {
+    const cName = "button"
     return (
-        <button className="button" onClick={props.click}>{props.name}</button>
+        <button className={props.className ? props.className+" "+cName : cName } onClick={props.click}>{props.name}</button>
     );
 }
 

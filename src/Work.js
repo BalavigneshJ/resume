@@ -23,7 +23,7 @@ function Work() {
         <h1><a href="https://bigin.zoho.com/">Bigin</a></h1>
         <p>
 
-            . Bigin is a Lyte version of CRM. Developed using our own framework Lyte.
+            . Bigin is a Lyte version of CRM, developed using our own framework Lyte.
             <br/>
             . I lead a small team to achive it using existing APIs.
             <br/>

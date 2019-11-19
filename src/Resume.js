@@ -10,11 +10,13 @@ import Button from './Button';
 
 function Resume() {
 
-    const [ele, setEle] = useState(<About/>);
+    const [ele, setEle] = useState(<Projects/>);
+    const [active, setActive] = useState("Projects");
 
-    const buttons = ["About" , "School" , "Patners" , "Work" , "Projects"] ;
+    const buttons = ["About" , "School" , "Work" , "Projects"] ;
 
     const handleClick = function (ev) {
+        setActive(ev.target.innerText)
         switch (ev.target.innerText) {
             case 'Partners':
                 return  setEle(<Partners />);
@@ -41,7 +43,7 @@ function Resume() {
             {
                 buttons.map((b , i)=>{
                     return(
-                    <Button click={handleClick} name={b} />
+                        <Button className={ active === b ? 'active' : ''} skey={i} click={handleClick} name={b} />
                     );
                 })
             }
